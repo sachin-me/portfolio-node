@@ -692,5 +692,36 @@ body {
     position: fixed;
     z-index: -1;
     top: 8%; } }
+.form {
+  margin: 10px 0;
+  max-width: 300px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all .3s ease; }
+  .form label input, .form label textarea {
+    margin: 5px 0;
+    height: 30px;
+    width: 100%;
+    outline: none;
+    border: 5px;
+    font-size: 14px; }
+  .form label textarea {
+    height: 100px; }
+  .form label :first-child {
+    margin-top: 0 !important;
+    margin-left: 0 !important; }
+  .form div {
+    text-align: center;
+    padding: 5px; }
+    .form div button {
+      background: #08fdd8;
+      border: none;
+      height: 30px;
+      width: 80px;
+      border-radius: 2px;
+      cursor: pointer; }
+      .form div button:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: all .3s ease;
+        background: #08fdd8c2; }
 
 /*# sourceMappingURL=style.css.map */
